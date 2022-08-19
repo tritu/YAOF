@@ -161,7 +161,7 @@ ln -sf ../../../feeds/packages/lang/node-serialport-bindings-cpp ./package/feeds
 git clone -b master --depth 1 https://github.com/BROBIRD/openwrt-r8168.git package/new/r8168
 patch -p1 <../PATCH/r8168/r8168-fix_LAN_led-for_r4s-from_TL.patch
 # R8152驱动
-svn export https://github.com/immortalwrt/immortalwrt/branches/master/package/kernel/r8152 package/new/r8152
+#svn export https://github.com/immortalwrt/immortalwrt/branches/master/package/kernel/r8152 package/new/r8152
 # r8125驱动
 svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/r8125 package/new/r8125
 # igb-intel驱动
